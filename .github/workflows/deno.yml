@@ -1,0 +1,47 @@
+name: Deno
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        deno-version: [1.37.x, 1.38.x]
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: ${{ matrix.deno-version }}
+
+      - name: Verify formatting
+        run: deno fmt --check
+
+      - name: Run linter
+        run: deno lint
+
+      - name: Run tests
+        run: deno test --allow-all
+
+      - name: Check Types
+        run: deno check **/*.ts
+
+      - name: Create coverage report
+        run: |
+          deno test --coverage=coverage --allow-all
+          deno coverage coverage --lcov > coverage.lcov
+
+      - name: Upload coverage
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.lcov
+          fail_ci_if_error: true

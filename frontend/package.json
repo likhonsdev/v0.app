@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "export": "next build && next export",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@monaco-editor/react": "^4.7.0",
