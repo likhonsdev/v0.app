@@ -2,34 +2,50 @@
 
 <div align="center">
 
-<h3 align="center">Say hi to December ☃️</h3>
+<h1 align="center">v0.app - Turn Ideas into Real Web Apps 🚀</h1>
 
   <p align="center">
-    December is an open-source alternative to AI-powered development platforms like Loveable, Replit, and Bolt that you can run locally with your own API keys, ensuring complete privacy and significant cost savings. 
+    v0 is an innovative platform that transforms your ideas into functional web applications using natural language - no coding required!
     <br />
     <br />
-    December lets you build full-stack applications from simple text prompts using AI.
+    Simply describe what you want, and v0's intelligent agent builds it using modern frontend tools.
     <br />
     <br />
-    <a href="#get-started">Get started</a>
+    <a href="#get-started">Get Started</a>
     ·
-    <a href="https://github.com/ntegrals/december/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/likhonsdev/v0.app/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/ntegrals/december/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/likhonsdev/v0.app/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=">Request Feature</a>
 
   </p>
+
+[![License](https://img.shields.io/github/license/likhonsdev/v0.app)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/likhonsdev/v0.app)](https://github.com/likhonsdev/v0.app/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/likhonsdev/v0.app)](https://github.com/likhonsdev/v0.app/issues)
+
 </div>
 <a href="https://github.com/ntegrals/december">
     <img src=".assets/preview.png" alt="December Preview">
   </a>
 
-## Features
+## ✨ Key Features
 
-    ✅ AI-powered project creation from natural language prompts
-    ✅ Containerized Next.js applications with Docker
-    ✅ Live preview with mobile and desktop views
-    ✅ Full-featured Monaco code editor with file management
-    ✅ Real-time chat assistant for development help
+    🗣 Natural Language Interface - Describe your app in plain English
+    🎨 High-fidelity UI Generation - Create UIs from wireframes or mockups
+    🔄 Workflow Integration - Add functionality through simple step descriptions
+    🚀 One-Click Deploy - Deploy to secure, scalable infrastructure
+    🔍 Web Search & Inspection - Search and analyze web content
+    🛠 Automatic Error Fixing - Intelligent diagnostics and fixes
+    🔌 Tool Integration - Connect with external tools and APIs
+    
+## 🛠 Technical Features
+
+    ✅ Next.js 15.3.2 with React 19 for modern frontend
+    ✅ Bun + Express backend for high performance
+    ✅ Containerized applications with Docker
+    ✅ Full-featured Monaco code editor
+    ✅ Real-time chat assistant
+    ✅ Live preview with responsive design
     ✅ Project export and deployment capabilities
 
 ## Roadmap
@@ -40,12 +56,13 @@
     🔄 Comprehensive test coverage
     🔄 Multi-framework support (beyond Next.js)
 
-## Get started
+## 🚀 Get Started
 
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/ntegrals/december
+   git clone https://github.com/likhonsdev/v0.app.git
+   cd v0.app
    ```
 
 2. Get an API Key from any OpenAI sdk compatible provider (e.g. OpenAI, Claude, Ollama, OpenRouter, etc.) and set it in the `config.ts` file.
@@ -88,13 +105,30 @@
 
 You can test the December here: [https://december.ai](https://december.ai) -->
 
-## Motivation
+## 💡 Why v0?
 
-AI-powered development platforms have revolutionized how we build applications. They allow developers to go from idea to working application in seconds, but most solutions are closed-source or require expensive subscriptions.
+v0 revolutionizes the way we build web applications by making development accessible to everyone. Here's what makes v0 special:
 
-Until recently, building a local alternative that matched the speed and capabilities of platforms like Loveable, Replit, or Bolt seemed challenging. The recent advances in AI and containerization technologies have made it possible to build a fast, local development environment that gives you full control over your code and API usage.
+- **Natural Language Development** - Express your ideas in plain language and watch them come to life
+- **End-to-End Solution** - Build both UI and backend logic, not just mockups
+- **Modern Stack** - Uses cutting-edge tools like Next.js, Tailwind, and more
+- **Team-Friendly** - Bridges design, product, and engineering workflows
+- **Extensible** - Use your APIs, databases, and components
+- **Intelligent Agent** - Autonomous capabilities including web search, site inspection, and error fixing
+- **Multi-modal** - Combines code generation, web browsing, debugging, and external API interactions
 
-I would love for this repo to become the go-to place for people who want to run their own AI-powered development environment. I've been working on this project for a while now and I'm really excited to share it with you.
+## 🎯 Who is v0 for?
+
+v0 helps teams prototype, build, and ship faster:
+
+- **Product Managers** - Quickly prototype and validate ideas
+- **Designers** - Turn mockups into real, high-fidelity UIs
+- **Engineers** - Scaffold full-stack apps following best practices
+- **Data Scientists** - Work with Python and SQL seamlessly
+- **Marketing Teams** - Create custom landing pages quickly
+- **Content Creators** - Build interactive examples and tutorials
+- **Customer Support** - Develop support tools efficiently
+- **Founders** - Ship MVPs fast without a large dev team
 
 ## Why run December locally?
 
@@ -110,13 +144,23 @@ The local-first approach means you can work offline, modify the platform itself,
 
 December proves that you don't need to choose between powerful AI assistance and maintaining control over your work. Run it locally, use your own API keys, and build without boundaries.
 
-## Contact
+## 🤝 Contributing
 
-Hi! Thanks for checking out and using this project. If you are interested in discussing your project, require mentorship, consider hiring me, or just wanna chat - I'm happy to talk.
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to:
+- Submit bug reports and feature requests
+- Contribute code improvements
+- Improve documentation
+- Share feedback and ideas
 
-You can send me an email to get in touch: j.schoen@mail.com or message me on Twitter: [@julianschoen](https://twitter.com/julianschoen)
+## 📫 Contact
 
-Thanks and have an awesome day 👋
+Have questions or want to chat about v0? We'd love to hear from you!
+
+- 🌟 [GitHub Issues](https://github.com/likhonsdev/v0.app/issues) - Bug reports and feature requests
+- 🐦 Follow [@likhonsdev](https://twitter.com/likhonsdev) for updates
+- 📧 Email: contact@v0.app
+
+Thanks for being part of the v0 community! �
 
 ## Disclaimer
 
