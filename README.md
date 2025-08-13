@@ -1,5 +1,130 @@
 <a name="readme-top"></a>
 
+# V0.App
+
+![Build Status](https://github.com/likhonsdev/v0.app/workflows/Next.js%20CI/CD/badge.svg)
+![Deno Tests](https://github.com/likhonsdev/v0.app/workflows/Deno/badge.svg)
+![Webpack Build](https://github.com/likhonsdev/v0.app/workflows/NodeJS%20with%20Webpack/badge.svg)
+
+A modern web application with comprehensive CI/CD pipelines and automated workflows.
+
+## 🚀 Features
+
+- Next.js frontend with automated deployments
+- Backend services with TypeScript
+- Comprehensive testing suite
+- Automated repository maintenance
+- Multiple build system support
+
+## 📋 Project Structure
+
+```
+v0.app/
+├── frontend/           # Next.js frontend application
+├── backend/           # TypeScript backend services
+└── .github/
+    └── workflows/     # CI/CD and automation workflows
+```
+
+## 🔧 CI/CD Workflows
+
+### Next.js CI/CD (`nextjs.yml`)
+- 🏗️ Builds and tests Next.js application
+- 📦 Exports static site
+- 🚀 Deploys to both GitHub Pages and Vercel
+- ✨ Includes type checking and linting
+
+### Webpack Build (`webpack.yml`)
+- 🔨 Builds NodeJS projects
+- ✅ Tests across Node versions (16.x, 18.x, 20.x)
+- 📤 Uploads build artifacts
+
+### Deno Testing (`deno.yml`)
+- 🧪 Runs tests and generates coverage
+- 📝 Verifies code formatting
+- 🔍 Performs type checking
+- 📊 Uploads coverage reports
+
+### Gulp Build (`gulp.yml`)
+- 🛠️ Builds with Gulp
+- 💾 Implements caching
+- 🧪 Runs tests
+- 📦 Uploads artifacts
+
+### Repository Activity (`auto-activity.yml`)
+- 📊 Tracks repository statistics
+- 👥 Updates contributor graphs
+- 🖼️ Generates social preview images
+- 🤖 Auto-merges updates
+
+## 🏃‍♂️ Getting Started
+
+### Frontend Development
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Running Tests
+```bash
+# Frontend tests
+cd frontend
+npm test
+
+# Type checking
+npm run typecheck
+
+# Linting
+npm run lint
+```
+
+## 🔄 Automated Workflows
+
+The repository includes automated workflows that:
+- Build and test code on every push
+- Deploy to multiple environments
+- Generate statistics and reports
+- Maintain repository activity
+- Update documentation
+
+## 🛠️ Technologies
+
+- **Frontend**: Next.js, React
+- **Backend**: TypeScript, Deno
+- **Build Tools**: Webpack, Gulp
+- **Testing**: Jest, Testing Library
+- **CI/CD**: GitHub Actions
+- **Deployment**: Vercel, GitHub Pages
+
+## 📝 Environment Variables
+
+Required secrets for deployments:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+- `WAKATIME_API_KEY` (optional)
+
+## 👥 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Support
+
+For support, please open an issue in the repository.
+
+---
+⭐️ If you find this project useful, please consider giving it a star!
+
 <div align="center">
 
 <h1 align="center">v0.app - Turn Ideas into Real Web Apps 🚀</h1>
